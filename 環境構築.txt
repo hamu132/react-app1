@@ -1,0 +1,7 @@
+最初に構築する場合：
+node.jsとreactをインストール
+
+githubからcloneしたものをもとに構築する場合：
+npm install
+npm start
+このコマンドだけで同じ環境になる
