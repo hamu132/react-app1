@@ -1,9 +1,13 @@
-import RotateIcon from './components/RotateIcon_temp';
+import RotateIcon from './components/RotateIcon';
+import SpeedButton from './components/SpeedButton';
 
 //HTML要素が返される。
 function App() {
   return (
-    <RotateIcon />
+    <div>
+      <RotateIcon />
+      <SpeedButton />
+    </div>
   );
 }
 
