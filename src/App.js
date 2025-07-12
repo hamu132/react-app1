@@ -1,12 +1,10 @@
-import RotateIcon from './components/RotateIcon';
-import SpeedButton from './components/SpeedButton';
-
+import ControlPanel from './components/ControlPanel';
+import "./App.css";
 //HTML要素が返される。
 function App() {
   return (
-    <div>
-      <RotateIcon />
-      <SpeedButton />
+    <div className="App">
+      <ControlPanel />
     </div>
   );
 }
